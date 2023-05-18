@@ -52,7 +52,7 @@ const Calculator = () => {
         </button>
 
         <div className="form-group">
-          <label className="form-label" htmlFor="result">
+          <label className="form-label" htmlFor="result" >
             Result
           </label>
           <input
@@ -60,6 +60,7 @@ const Calculator = () => {
             type="number"
             id="result"
             value={result}
+            readOnly
           />
         </div>
       </div>
